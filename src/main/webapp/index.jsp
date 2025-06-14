@@ -1,57 +1,40 @@
-<html>
-<body><!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Contact</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+  <meta charset="UTF-8">
+  <title>Welcome to Praveen's DevOps Class</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 50px;
+      background-color: #f2f2f2;
+    }
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+    .images img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Contact</h1>
+  <h1>Welcome to Praveen's DevOps Class</h1>
 
-    <form action="process-form.php" method="post">
+  <div class="images">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" alt="DevOps Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="Indian Flag">
+    <img src="https://lassho.edu.vn/.../subhash_chandra_bose_full_4k.jpg" alt="Subhash Chandra Bose">
+  </div>
 
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name">
-        
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
+  <div>Tribute to <strong>Subhash Chandra Bose</strong> 🇮🇳</div>
 
-        <label for="priority">Priority</label>
-        <select id="priority" name="priority">
-            <option value="1">Low</option>
-            <option value="2" selected>Medium</option>
-            <option value="3">High</option>
-        </select>
-
-        <fieldset>
-            <legend>Type</legend>
-
-            <label>
-                <input type="radio" name="type" value="1" checked>
-                Complaint
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="type" value="2">
-                Suggestion
-            </label>
-
-        </fieldset>
-
-        <label>
-            <input type="checkbox" name="terms">
-            I agree to the terms and conditions
-        </label>
-
-        <br>
-
-        <button>Send</button>
-
-    </form>
-
-
+</body>
+</html>
