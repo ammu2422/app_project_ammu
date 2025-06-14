@@ -31,7 +31,7 @@
   <div class="images">
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" alt="DevOps Logo">
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="Indian Flag">
-    <img src="<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Subhas_Chandra_Bose_01.jpg" alt="Subhash Chandra Bose">">
+    <img src="<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Subhas_Chandra_Bose_01.svg" alt="Subhash Chandra Bose">
   </div>
 
   <div>Tribute to <strong>Subhash Chandra Bose</strong> 🇮🇳</div>
